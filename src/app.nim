@@ -1,12 +1,6 @@
 import tsGlue
 import math
 
-let x = [1,2,3]
-var y = x
-var z = x
-y[0] = 10
-consoleLog($z[0])
-
 proc `or`(a: float, b:float) : float =
     return (a.uint or b.uint).float
 
